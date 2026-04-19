@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    text-align: center;
+    color: white;
+}
+
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.descripcion4 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}           
+
+#descripcion3 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
