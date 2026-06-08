@@ -28,3 +28,4 @@ historia.addEventListener("click", function() {
     historia.style.borderRadius = "10px";
 
 });
+
