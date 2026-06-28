@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.noise {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    background-image:url('https://i.pinimg.com/originals/80/eb/15/80eb15b74b0e953de799f32cb26a8c61.gif');
+    background-size:cover;
+    opacity:.05;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#050505;
+    color:#d8d8d8;
+    font-family:'Share Tech Mono', monospace;
+    min-height:100vh;
+    overflow-x:hidden;
+}
+
+.contenedor{
+    width:min(900px,90%);
+    margin:auto;
+    padding:40px 0;
+}
+
+header{
+    margin-bottom:40px;
+}
+
+h1{
+    color:#00ff88;
+    font-size:3rem;
+    letter-spacing:4px;
+}
+
+
+
+p {
+
+    margin-bottom:1rem;
+}
+
+
+.status{
+    color:#ff003c;
+    margin-bottom:10px;
+}
+
+
+#resultado {
+    font-size: larger;
+    color: #ff003c;
+}
+
+
+
+.card{
+    border:1px solid #222;
+    background:#0a0a0a;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 15px rgba(0,255,120,.08);
+}
+
+.card h2{
+    color:#00ff88;
+    margin-bottom:10px;
+}
+
+
+
+
+
+
+.botones {
+    margin: 20px 0;
+}
+
+.botones button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.botones button:hover {
+    transform: scale(1.1);
+}
+
+
+footer{
+    margin-top:50px;
+    opacity:.4;
+}
