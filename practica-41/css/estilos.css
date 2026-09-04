@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.noise {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    background-image:url('https://i.pinimg.com/originals/80/eb/15/80eb15b74b0e953de799f32cb26a8c61.gif');
+    background-size:cover;
+    opacity:.05;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#050505;
+    color:#d8d8d8;
+    font-family:'Share Tech Mono', monospace;
+    min-height:100vh;
+    overflow-x:hidden;
+}
+
+.contenedor{
+    width:min(900px,90%);
+    margin:auto;
+    padding:40px 0;
+}
+
+header{
+    margin-bottom:40px;
+}
+
+h1{
+    color:#00ff88;
+    font-size:3rem;
+    letter-spacing:4px;
+}
+
+
+
+p {
+
+    margin-bottom:1rem;
+}
+
+
+.status{
+    color:#ff003c;
+    margin-bottom:10px;
+}
+
+
+
+.card{
+    border:1px solid #222;
+    background:#0a0a0a;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 15px rgba(0,255,120,.08);
+}
+
+.card h2{
+    color:#00ff88;
+    margin-bottom:10px;
+}
+
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20em;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#rojo {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#azul {
+    background-color: #3498db;
+    color: white;
+}
+
+#verde {
+    background-color: #2ecc71;
+    color: white;
+}
+
+#negro {
+    background-color: #111;
+    color: white;
+}
+
+#borrar {
+    background-color: #777;
+    color: white;
+}
+
+.cuadrado {
+    width: 50px;
+    height: 50px;
+}
+
+#cuadro {
+    width: 100%;
+    min-height: 150px;
+    margin-top: 20px;
+    border: 2px dashed #555;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#calcular{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 10%;
+    margin-top: 100px;
+    background-color: rgb(143, 141, 141);
+}
+
+#detectar{
+    justify-content: center;
+    margin-top: 100px;
+    background-color: red;
+    width: 20%;
+    height: 10%;
+
+}
+
+
+footer{
+    margin-top:50px;
+    opacity:.4;
+}
